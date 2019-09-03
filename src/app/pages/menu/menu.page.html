@@ -1,0 +1,62 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-button expand="block" routerLink='/login-admin' routerDirection="/menu">
+                <ion-icon slot="icon-only" name="more"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+
+        <ion-buttons class="buttons-Toolbar">
+            <ion-button expand="block" routerLink='/comida' routerDirection="/menu">
+                <ion-img class="img-Toolbar" [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+            </ion-button>
+            <ion-button expand="block" routerLink='/bebida' routerDirection="/menu">
+                <ion-img class="img-Toolbar" [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+
+            </ion-button>
+            <ion-button expand="block" routerLink='/comida' routerDirection="/menu">
+                <ion-img class="img-Toolbar" [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+
+            </ion-button>
+            <ion-button expand="block" routerLink='/comida' routerDirection="/menu">
+                <ion-img class="img-Toolbar" [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+
+            </ion-button>
+            <ion-button expand="block" routerLink='/comida' routerDirection="/menu">
+                <ion-img class="img-Toolbar" [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ItemMenu">
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button [defaultHref]="['/']"></ion-back-button>
+        </ion-buttons>
+        <ion-title class="ion-title">Menu</ion-title>
+    </ion-toolbar>
+
+    <ion-card>
+        <ion-item class="ItemMenu" routerLink='/comida' routerDirection="/menu" class="activated">
+            <ion-card-content>
+                <ion-img class="img-Menu" [src]="['../../../assets/images/Menu/menucomida.jpg']"></ion-img>
+                <ion-card-subtitle>Menu de Comidas</ion-card-subtitle>
+            </ion-card-content>
+        </ion-item>
+        <ion-item class="ItemMenu" routerLink='/bebida' routerDirection="/menu">
+            <ion-card-content>
+                <ion-img class="img-Menu" [src]="['../../../assets/images/Menu/menubebidas.jpg']"></ion-img>
+                <ion-card-subtitle>Menu de Bebidas</ion-card-subtitle>
+            </ion-card-content>
+        </ion-item>
+        <ion-item class="ItemMenu" routerLink='/postre' routerDirection="/menu">
+            <ion-card-content>
+                <ion-img class="img-Menu" [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+                <ion-card-subtitle>Menu de Postres</ion-card-subtitle>
+            </ion-card-content>
+        </ion-item>
+    </ion-card>
+
+</ion-content>

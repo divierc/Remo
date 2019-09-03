@@ -1,14 +1,39 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header class="ion-header">
+    <ion-toolbar color="primary">
+        <ion-title class="ion-title">
+            Prototipo Remo App
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+    <ion-card class="ion-card">
+        <ion-card-header>
+            <ion-card-subtitle>Desarrollo de Apps Moviles</ion-card-subtitle>
+            <ion-card-title>Remo App</ion-card-title>
+            <br>
+            <ion-card-subtitle>Presentado por:</ion-card-subtitle>
+            <ion-card-subtitle>Divier Castañeda V.</ion-card-subtitle>
+        </ion-card-header>
+        <br>
+        <ion-card-content>
+            Con mucho gusto se hace la presentación del prototico Remo App el cual gestiona los pedido del restaurante mediante una tableta o dispositivo móvil.
+        </ion-card-content>
+        <br>
+        <ion-button expand="block" routerLink='/login' routerDirection="root">
+            Hacer clic para comenzar...
+        </ion-button>
+        <br>
+    </ion-card>
+    <ion-footer expand="block">
+        <ion-toolbar color="primary">
+            <ion-buttons slot="primary">
+                <ion-button>
+                    <ion-icon slot="icon-only" name="contact"></ion-icon>
+                </ion-button>
+            </ion-buttons>
+            <p>Copyright SENA Colombia 2019</p>
+        </ion-toolbar>
+    </ion-footer>
+
 </ion-content>

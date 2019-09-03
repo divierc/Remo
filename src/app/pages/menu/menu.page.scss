@@ -1,0 +1,28 @@
+.img-Toolbar {
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 2px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.buttons-Toolbar {
+    justify-content: space-around;
+}
+
+.img-Menu {
+    object-fit: none;
+    position: relative;
+    height: 130px;
+}
+
+ion-card,
+ion-item,
+ion-card-content {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 22px;
+    line-height: 1.5;
+    width: 100%;
+}
