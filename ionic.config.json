@@ -1,5 +1,7 @@
 {
   "name": "Remo",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
