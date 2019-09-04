@@ -1,9 +1,29 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>admin</ion-title>
-  </ion-toolbar>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button [defaultHref]="['/']"></ion-back-button>
+        </ion-buttons>
+        <ion-title class="ion-title">Administracion REMO</ion-title>
+    </ion-toolbar>
 </ion-header>
-
+<br>
 <ion-content>
-
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>
+                Administrar
+            </ion-card-title>
+        </ion-card-header>
+        <br>
+        <ion-card-content>
+            <ion-buttons>
+                <br>
+                <ion-button>Descarga de Facturas</ion-button>
+                <br>
+                <ion-button>Cargar Productos</ion-button>
+                <br>
+                <ion-button>Administrar Empleados</ion-button>
+            </ion-buttons>
+        </ion-card-content>
+    </ion-card>
 </ion-content>

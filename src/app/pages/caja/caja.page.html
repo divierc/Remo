@@ -1,9 +1,64 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>caja</ion-title>
-  </ion-toolbar>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button [defaultHref]="['/menu']"></ion-back-button>
+        </ion-buttons>
+        <ion-title class="ion-title">Caja</ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+    <ion-card>
+        <br>
+        <ion-card-content>
+            <ion-card-header>
+                <ion-item>
+                    <ion-label>
+                        <h2>Descripcion</h2>
+                    </ion-label>
+                    <ion-label>
+                        <h2>Valor</h2>
+                    </ion-label>
+                </ion-item>
+            </ion-card-header>
+            <ion-item>
+                <ion-label>
+
+                </ion-label>
+                <ion-label>
+
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-item>
+            <ion-label>
+                <h2>Valor a pagar:</h2>
+            </ion-label>
+            <ion-label>
+                <h2>$0</h2>
+            </ion-label>
+        </ion-item>
+    </ion-card>
+    <ion-footer>
+        <ion-card>
+            <ion-buttons slot="start">
+                <ion-button expand="block" routerLink='/pedido-mesa' routerDirection="/menu">
+                    <ion-img [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+                </ion-button>
+                <ion-button expand="block" routerLink='/pedido-cocina' routerDirection="/menu">
+                    <ion-img class="img-Toolbar" [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+                </ion-button>
+                <ion-button expand="block" routerLink='/pedido-mesero' routerDirection="/menu">
+                    <ion-img [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+                </ion-button>
+                <ion-button expand="block" routerLink='/caja' routerDirection="/menu">
+                    <ion-img [src]="['../../../assets/images/Menu/menupostres.jpg']"></ion-img>
+                </ion-button>
+            </ion-buttons>
+        </ion-card>
+    </ion-footer>
 </ion-content>

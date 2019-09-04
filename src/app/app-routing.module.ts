@@ -16,7 +16,8 @@ const routes: Routes = [
   { path: 'pedido-mesa', loadChildren: './pages/pedido-mesa/pedido-mesa.module#PedidoMesaPageModule' },
   { path: 'comida-detalle', loadChildren: './pages/comida-detalle/comida-detalle.module#ComidaDetallePageModule' },
   { path: 'bebidas-detalle', loadChildren: './pages/bebidas-detalle/bebidas-detalle.module#BebidasDetallePageModule' },
-  { path: 'caja', loadChildren: './pages/caja/caja.module#CajaPageModule' }
+  { path: 'caja', loadChildren: './pages/caja/caja.module#CajaPageModule' },
+  { path: 'pedido-mesero', loadChildren: './pages/pedido-mesero/pedido-mesero.module#PedidoMeseroPageModule' }
 ];
 
 @NgModule({

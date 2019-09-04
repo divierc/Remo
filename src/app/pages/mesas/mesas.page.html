@@ -12,7 +12,7 @@
     <ion-grid class="grid-Menu">
         <ion-row>
             <ion-col>
-                <ion-item class="item-Menu" routerLink='/menu' routerDirection="/mesas">
+                <ion-item class="item-Menu" [routerLink]="['/menu']" routerDirection="forward">
                     <ion-img class="img-Menu" [src]="['../../../assets/images/Menu/menucomida.jpg']"></ion-img>
                     <ion-content>
                         <ion-label>Mesa 1.</ion-label>
@@ -21,7 +21,7 @@
 
             </ion-col>
             <ion-col>
-                <ion-item class="item-Menu" routerLink='/menu' routerDirection="/mesas">
+                <ion-item class="item-Menu" [routerLink]="['/menu']" routerDirection="forward">
                     <ion-img class="img-Menu" [src]="['../../../assets/images/Menu/menucomida.jpg']"></ion-img>
                     <ion-content>
                         <ion-label>Mesa 2.</ion-label>

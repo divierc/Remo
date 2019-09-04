@@ -1,9 +1,45 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login-admin</ion-title>
-  </ion-toolbar>
+<ion-header class="ion-header">
+    <ion-toolbar color="primary">
+        <ion-title class="ion-title">
+            Prototipo Remo App
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <form onsubmit="processForm(event)">
+        <ion-card class="ion-card">
+            <ion-card-header>
+                <ion-card-title>REMO</ion-card-title>
+                <ion-card-subtitle>Ingreso de Administrador</ion-card-subtitle>
+            </ion-card-header>
+            <br>
+            <ion-card-content>
 
+                <ion-label position="stacked">User
+                    <ion-text color="danger">*</ion-text>
+                </ion-label>
+                <ion-input required type="text" oninput="handleFirstNameValue(event)"></ion-input>
+                <ion-label position="stacked">Password
+                    <ion-text color="danger">*</ion-text>
+                </ion-label>
+                <ion-input required type="text" oninput="handleFirstNameValue(event)"></ion-input>
+            </ion-card-content>
+            <br>
+            <ion-button expand="block" routerLink='/admin' routerDirection="root">
+                Ingresar
+            </ion-button>
+            <br>
+        </ion-card>
+    </form>
+    <ion-footer expand="block">
+        <ion-toolbar color="primary">
+            <ion-buttons slot="primary">
+                <ion-button>
+                    <ion-icon slot="icon-only" name="contact"></ion-icon>
+                </ion-button>
+            </ion-buttons>
+            <p>Copyright SENA Colombia 2019</p>
+        </ion-toolbar>
+    </ion-footer>
 </ion-content>

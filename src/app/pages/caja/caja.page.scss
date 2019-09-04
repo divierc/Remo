@@ -1,0 +1,10 @@
+ion-items {
+    display: flex;
+    flex-direction: column;
+}
+
+ion-card ion-button {
+    object-fit: none;
+    position: relative;
+    height: 25%;
+}
