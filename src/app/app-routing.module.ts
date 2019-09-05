@@ -14,10 +14,10 @@ const routes: Routes = [
   { path: 'mesas', loadChildren: './pages/mesas/mesas.module#MesasPageModule' },
   { path: 'pedido-cocina', loadChildren: './pages/pedido-cocina/pedido-cocina.module#PedidoCocinaPageModule' },
   { path: 'pedido-mesa', loadChildren: './pages/pedido-mesa/pedido-mesa.module#PedidoMesaPageModule' },
-  { path: 'comida-detalle', loadChildren: './pages/comida-detalle/comida-detalle.module#ComidaDetallePageModule' },
-  { path: 'bebidas-detalle', loadChildren: './pages/bebidas-detalle/bebidas-detalle.module#BebidasDetallePageModule' },
   { path: 'caja', loadChildren: './pages/caja/caja.module#CajaPageModule' },
-  { path: 'pedido-mesero', loadChildren: './pages/pedido-mesero/pedido-mesero.module#PedidoMeseroPageModule' }
+  { path: 'pedido-mesero', loadChildren: './pages/pedido-mesero/pedido-mesero.module#PedidoMeseroPageModule' },
+  { path: 'bebidadetalle', loadChildren: './pages/bebidadetalle/bebidadetalle.module#BebidadetallePageModule' },
+  { path: 'comidadetalle', loadChildren: './pages/comidadetalle/comidadetalle.module#ComidadetallePageModule' }
 ];
 
 @NgModule({
